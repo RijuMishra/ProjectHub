@@ -1,6 +1,10 @@
 import axios from 'axios';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+// IMPORTANT: In production on Vercel, set VITE_API_URL to your Render backend URL
+// and INCLUDE the /api suffix: https://your-backend.onrender.com/api
+// Trailing slashes are stripped automatically to prevent double-slash issues.
+const rawUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API_BASE_URL = rawUrl.replace(/\/+$/, '');
 
 const api = axios.create({
   baseURL: API_BASE_URL,

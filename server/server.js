@@ -25,10 +25,25 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Enable CORS
+// Enable CORS — allow one or more client origins via CLIENT_URL env var
+// In production on Render, set CLIENT_URL=https://your-app.vercel.app
+// Multiple origins can be comma-separated: https://app.vercel.app,https://www.app.vercel.app
+const rawClientUrl = process.env.CLIENT_URL || 'http://localhost:5173';
+const allowedOrigins = [
+  ...rawClientUrl.split(',').map((o) => o.trim()),
+  'http://localhost:5173',
+  'http://localhost:3000',
+].filter(Boolean);
+
 app.use(cors({
-  origin: process.env.CLIENT_URL || 'http://localhost:5173',
-  credentials: true
+  origin: function (origin, callback) {
+    // Allow server-to-server requests (Postman, curl, health checks) with no Origin header
+    if (!origin) return callback(null, true);
+    if (allowedOrigins.includes(origin)) return callback(null, true);
+    console.warn(`[CORS] Blocked request from origin: ${origin}`);
+    return callback(new Error(`CORS policy: Origin '${origin}' is not allowed.`));
+  },
+  credentials: true,
 }));
 
 // Logger middleware in development
