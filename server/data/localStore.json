@@ -1,0 +1,712 @@
+{
+  "users": [
+    {
+      "_id": "6aeceed30000969e1db896b1",
+      "name": "System Administrator",
+      "email": "admin@projecthub.edu",
+      "password": "$2a$10$qercAG624lhwFFRL3VaglObERrHDS63xQEujF854.Uz/X.WBVP/NS",
+      "role": "admin",
+      "department": "Academic Computing Services",
+      "year": "Faculty / Mentor",
+      "skills": [
+        "System Architecture",
+        "Cloud Infrastructure",
+        "Security Auditing"
+      ],
+      "bio": "Head of university academic technology infrastructure and ProjectHub lead administrator.",
+      "createdAt": "2026-11-05T21:02:11.517Z",
+      "updatedAt": "2026-11-05T21:02:11.517Z"
+    },
+    {
+      "_id": "6aeceed3000ba99c6ef14119",
+      "name": "Arjun Sharma",
+      "email": "arjun.sharma@projecthub.edu",
+      "password": "$2a$10$fNc/M318p2aHgYe54V.J1uTkKel9i.KaJwbuCnlN6VoCVlyuN7DKC",
+      "role": "student",
+      "department": "Computer Science & Engineering",
+      "year": "4th Year",
+      "skills": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Docker",
+        "Tailwind CSS"
+      ],
+      "bio": "Final year CSE undergraduate passionate about full-stack web applications and microservice architectures.",
+      "createdAt": "2026-11-05T21:02:11.591Z",
+      "updatedAt": "2026-11-05T21:02:11.591Z"
+    },
+    {
+      "_id": "6aeceed3001a6da4cc57f357",
+      "name": "Priya Patel",
+      "email": "priya.patel@projecthub.edu",
+      "password": "$2a$10$Y.LubdtLq.cJh9iK/Dgzj.LzR12gXN4AcTOchzSIp5cSjd87r8Rq.",
+      "role": "student",
+      "department": "Artificial Intelligence & Data Science",
+      "year": "3rd Year",
+      "skills": [
+        "Python",
+        "PyTorch",
+        "TensorFlow",
+        "Scikit-learn",
+        "FastAPI",
+        "Pandas"
+      ],
+      "bio": "Junior researcher working on computer vision and medical image classification algorithms.",
+      "createdAt": "2026-11-05T21:02:11.658Z",
+      "updatedAt": "2026-11-05T21:02:11.658Z"
+    },
+    {
+      "_id": "6aeceed3001ede0c1b5ec718",
+      "name": "Rohit Verma",
+      "email": "rohit.verma@projecthub.edu",
+      "password": "$2a$10$KEal9jJ1crfb47zS3Z3iAewSYulx5i8h8PfnfBsRWY0/ygTdA7IJ2",
+      "role": "student",
+      "department": "Information Technology",
+      "year": "3rd Year",
+      "skills": [
+        "Flutter",
+        "Firebase",
+        "C++",
+        "IoT",
+        "MQTT",
+        "Kotlin"
+      ],
+      "bio": "Mobile dev enthusiast developing connected smart-campus applications.",
+      "createdAt": "2026-11-05T21:02:11.725Z",
+      "updatedAt": "2026-11-05T21:02:11.725Z"
+    },
+    {
+      "_id": "6aecf1da001f13b59dd0c020",
+      "name": "Neha Gupta",
+      "email": "neha.gupta.1793913306627@projecthub.edu",
+      "password": "$2a$10$G7CdawIVALjKNzz/AIB/w.yKEM753cqxPbOn3sIBnSn5iP99cggJi",
+      "department": "Information Technology",
+      "year": "2nd Year",
+      "skills": [
+        "Vue.js",
+        "Express",
+        "Python"
+      ],
+      "bio": "",
+      "role": "student",
+      "createdAt": "2026-11-05T21:15:06.631Z",
+      "updatedAt": "2026-11-05T21:15:06.631Z"
+    },
+    {
+      "_id": "6aecf20b00093709c65bdb3d",
+      "name": "Neha Gupta",
+      "email": "neha.gupta.1793913355026@projecthub.edu",
+      "password": "$2a$10$EQSNLpTqaFHv.iWOZB8qNOmxUdw2YRgZUgbZBSYuZFMP0dhjb0fuC",
+      "department": "Information Technology",
+      "year": "2nd Year",
+      "skills": [
+        "Vue.js",
+        "Express",
+        "Python"
+      ],
+      "bio": "",
+      "role": "student",
+      "createdAt": "2026-11-05T21:15:55.030Z",
+      "updatedAt": "2026-11-05T21:15:55.030Z"
+    },
+    {
+      "_id": "6aecf2bd0010094d34512c14",
+      "name": "Neha Gupta",
+      "email": "neha.gupta.1793913533915@projecthub.edu",
+      "password": "$2a$10$sGBxiUT6UxEWzleHkIGW0uPh/lnISi3m4OO0Z8y2K4zAGEPLQoa9G",
+      "department": "Information Technology",
+      "year": "2nd Year",
+      "skills": [
+        "Vue.js",
+        "Express",
+        "Python"
+      ],
+      "bio": "",
+      "role": "student",
+      "createdAt": "2026-11-05T21:18:53.922Z",
+      "updatedAt": "2026-11-05T21:18:53.922Z"
+    }
+  ],
+  "projects": [
+    {
+      "_id": "6aeceed3000076742f2d4d7b",
+      "title": "CampusPulse – Real-Time University Transit & Shuttle Tracker",
+      "description": "An integrated GPS telemetry and transit analytics platform for campus shuttle networks. Provides real-time bus tracking, ETA estimation based on traffic algorithms, and route schedule notifications for students and faculty.",
+      "category": "App Development",
+      "technologies": [
+        "Flutter",
+        "Node.js",
+        "WebSockets",
+        "Redis",
+        "PostgreSQL"
+      ],
+      "requiredSkills": [
+        "Mobile App Design",
+        "Socket Programming",
+        "REST APIs"
+      ],
+      "maxTeamSize": 4,
+      "status": "In Progress",
+      "visibility": "Public",
+      "owner": "6aeceed3001ede0c1b5ec718",
+      "members": [
+        {
+          "user": "6aeceed3000ba99c6ef14119",
+          "role": "Backend Lead"
+        }
+      ],
+      "repoUrl": "https://github.com/projecthub/campus-pulse",
+      "liveDemoUrl": "https://campuspulse.demo.edu",
+      "createdAt": "2026-11-05T21:02:11.794Z",
+      "updatedAt": "2026-11-05T21:02:11.794Z"
+    },
+    {
+      "_id": "6aeceed30011cd0ea28c87e5",
+      "title": "MedScan AI – Automated X-Ray Pathology Diagnostics",
+      "description": "A deep convolutional neural network for detecting pulmonary conditions including pneumonia and tuberculosis from chest X-ray radiographs with high diagnostic sensitivity and interpretable saliency heatmaps.",
+      "category": "AI/ML",
+      "technologies": [
+        "PyTorch",
+        "DenseNet-121",
+        "FastAPI",
+        "React",
+        "Docker"
+      ],
+      "requiredSkills": [
+        "Deep Learning",
+        "PyTorch",
+        "Medical Imaging",
+        "Data Preprocessing"
+      ],
+      "maxTeamSize": 3,
+      "status": "Planning",
+      "visibility": "Public",
+      "owner": "6aeceed3001a6da4cc57f357",
+      "members": [],
+      "repoUrl": "https://github.com/projecthub/medscan-ai",
+      "createdAt": "2026-11-05T21:02:11.800Z",
+      "updatedAt": "2026-11-05T21:02:11.800Z"
+    },
+    {
+      "_id": "6aeceed3001f197ed149acd7",
+      "title": "Decentralized Academic Credential Verifier",
+      "description": "A tamper-proof cryptographic ledger system for issuing, revoking, and digitally validating academic transcripts and degrees without centralized third-party certificate authority dependency.",
+      "category": "Cybersecurity",
+      "technologies": [
+        "Solidity",
+        "Ethereum",
+        "React",
+        "Ethers.js",
+        "IPFS"
+      ],
+      "requiredSkills": [
+        "Smart Contracts",
+        "Web3",
+        "Cryptography",
+        "Next.js"
+      ],
+      "maxTeamSize": 5,
+      "status": "In Progress",
+      "visibility": "Public",
+      "owner": "6aeceed3000ba99c6ef14119",
+      "members": [
+        {
+          "user": "6aeceed3001ede0c1b5ec718",
+          "role": "Frontend Architect"
+        }
+      ],
+      "repoUrl": "https://github.com/projecthub/credential-verifier",
+      "createdAt": "2026-11-05T21:02:11.807Z",
+      "updatedAt": "2026-11-05T21:02:11.807Z"
+    },
+    {
+      "_id": "6aeceed3000733b650c1994e",
+      "title": "Smart AgriSense – IoT Precision Agriculture Node",
+      "description": "Low-power ESP32 sensor clusters transmitting soil moisture, ambient humidity, and nitrogen levels over LoRaWAN to optimize automated drip irrigation in university research greenhouses.",
+      "category": "IoT",
+      "technologies": [
+        "ESP32",
+        "LoRaWAN",
+        "MQTT",
+        "InfluxDB",
+        "Grafana"
+      ],
+      "requiredSkills": [
+        "Embedded C",
+        "Circuit Design",
+        "Microcontrollers"
+      ],
+      "maxTeamSize": 3,
+      "status": "Completed",
+      "visibility": "Public",
+      "owner": "6aeceed3001ede0c1b5ec718",
+      "members": [
+        {
+          "user": "6aeceed3001a6da4cc57f357",
+          "role": "Data Analytics"
+        }
+      ],
+      "createdAt": "2026-11-05T21:02:11.822Z",
+      "updatedAt": "2026-11-05T21:02:11.822Z"
+    },
+    {
+      "_id": "6aecf20b00142dab5f53132a",
+      "title": "Autonomous Drone Navigation using Visual SLAM",
+      "description": "Building monocular visual odometry pipeline on onboard Raspberry Pi 4.",
+      "category": "IoT",
+      "technologies": [
+        "ROS2",
+        "OpenCV",
+        "C++",
+        "Python"
+      ],
+      "requiredSkills": [
+        "Robotics",
+        "Computer Vision"
+      ],
+      "maxTeamSize": 3,
+      "status": "Planning",
+      "visibility": "Public",
+      "repoUrl": "",
+      "liveDemoUrl": "",
+      "members": [],
+      "createdAt": "2026-11-05T21:15:55.214Z",
+      "updatedAt": "2026-11-05T21:15:55.214Z"
+    },
+    {
+      "_id": "6aecf2be00150c618ea41737",
+      "title": "Autonomous Drone Navigation using Visual SLAM",
+      "description": "Building monocular visual odometry pipeline on onboard Raspberry Pi 4.",
+      "category": "IoT",
+      "technologies": [
+        "ROS2",
+        "OpenCV",
+        "C++",
+        "Python"
+      ],
+      "requiredSkills": [
+        "Robotics",
+        "Computer Vision"
+      ],
+      "maxTeamSize": 3,
+      "status": "In Progress",
+      "visibility": "Public",
+      "owner": "6aeceed3000ba99c6ef14119",
+      "repoUrl": "",
+      "liveDemoUrl": "",
+      "members": [
+        {
+          "user": "6aecf2bd0010094d34512c14",
+          "role": "ROS2 Developer",
+          "joinedAt": "2026-11-05T21:18:54.196Z"
+        }
+      ],
+      "createdAt": "2026-11-05T21:18:54.092Z",
+      "updatedAt": "2026-11-05T21:18:54.092Z",
+      "id": "6aecf2be00150c618ea41737"
+    },
+    {
+      "_id": "6aecf56f001777f813f9fc14",
+      "title": "FSD",
+      "description": "Backend and frontend",
+      "category": "Web Development",
+      "technologies": [],
+      "requiredSkills": [],
+      "maxTeamSize": 4,
+      "status": "Planning",
+      "visibility": "Public",
+      "owner": "6aeceed3000ba99c6ef14119",
+      "repoUrl": "",
+      "liveDemoUrl": "",
+      "members": [],
+      "createdAt": "2026-11-05T21:30:23.330Z",
+      "updatedAt": "2026-11-05T21:30:23.330Z"
+    }
+  ],
+  "joinRequests": [
+    {
+      "_id": "6aeceed300172077c4421cf4",
+      "project": "6aeceed30011cd0ea28c87e5",
+      "applicant": "6aeceed3000ba99c6ef14119",
+      "message": "Hi Priya, I have experience setting up FastAPI inference microservices and can containerize the PyTorch model for deployment.",
+      "proposedRole": "MLOps Engineer",
+      "status": "pending",
+      "createdAt": "2026-11-05T21:02:11.972Z",
+      "updatedAt": "2026-11-05T21:02:11.972Z"
+    },
+    {
+      "_id": "6aecf2be000dfd475353d8c4",
+      "project": {
+        "_id": "6aecf2be00150c618ea41737",
+        "title": "Autonomous Drone Navigation using Visual SLAM",
+        "description": "Building monocular visual odometry pipeline on onboard Raspberry Pi 4.",
+        "category": "IoT",
+        "technologies": [
+          "ROS2",
+          "OpenCV",
+          "C++",
+          "Python"
+        ],
+        "requiredSkills": [
+          "Robotics",
+          "Computer Vision"
+        ],
+        "maxTeamSize": 3,
+        "status": "In Progress",
+        "visibility": "Public",
+        "owner": "6aeceed3000ba99c6ef14119",
+        "repoUrl": "",
+        "liveDemoUrl": "",
+        "members": [],
+        "createdAt": "2026-11-05T21:18:54.092Z",
+        "updatedAt": "2026-11-05T21:18:54.092Z",
+        "id": "6aecf2be00150c618ea41737"
+      },
+      "applicant": "6aecf2bd0010094d34512c14",
+      "message": "I have experience with ROS2 navigation packages and would love to build SLAM nodes.",
+      "proposedRole": "ROS2 Developer",
+      "status": "accepted",
+      "createdAt": "2026-11-05T21:18:54.132Z",
+      "updatedAt": "2026-11-05T21:18:54.132Z",
+      "id": "6aecf2be000dfd475353d8c4"
+    }
+  ],
+  "resources": [
+    {
+      "_id": "6aeceed30001bb40efe3aa72",
+      "title": "Full Stack Development Major Project Guidelines & SRS Template",
+      "description": "Official department format for software requirements specification, database schema documentation, and viva defense guidelines.",
+      "category": "Project Report",
+      "tags": [
+        "FSD",
+        "SRS Template",
+        "Academic Format",
+        "Documentation"
+      ],
+      "fileUrl": "/uploads/mern_project_documentation_template.pdf",
+      "fileName": "mern_project_documentation_template.pdf",
+      "fileType": "pdf",
+      "fileSize": 421000,
+      "uploader": "6aeceed30000969e1db896b1",
+      "downloadsCount": 42,
+      "createdAt": "2026-11-05T21:02:11.912Z",
+      "updatedAt": "2026-11-05T21:02:11.912Z"
+    },
+    {
+      "_id": "6aeceed300122fcdbd79a5df",
+      "title": "CNN & LSTM Hybrid Architecture Lecture Notes",
+      "description": "Comprehensive slides covering sequence modeling, spatial feature extraction, and transfer learning best practices.",
+      "category": "Notes",
+      "tags": [
+        "AI/ML",
+        "Deep Learning",
+        "PyTorch",
+        "Lecture Notes"
+      ],
+      "fileUrl": "/uploads/cnn_lstm_hybrid_architecture_notes.pdf",
+      "fileName": "cnn_lstm_hybrid_architecture_notes.pdf",
+      "fileType": "pdf",
+      "fileSize": 852000,
+      "uploader": "6aeceed3001a6da4cc57f357",
+      "downloadsCount": 19,
+      "createdAt": "2026-11-05T21:02:11.923Z",
+      "updatedAt": "2026-11-05T21:02:11.923Z"
+    },
+    {
+      "_id": "6aeceed300105228490be522",
+      "title": "ESP32 MQTT Low-Power Firmware Library",
+      "description": "Optimized C++ firmware for deep sleep cycling, TLS certificate management, and sensor reading serialization.",
+      "category": "Code Repository",
+      "tags": [
+        "IoT",
+        "Embedded C",
+        "ESP32",
+        "Microcontroller"
+      ],
+      "fileUrl": "/uploads/iot_mqtt_microcontroller_firmware.zip",
+      "fileName": "iot_mqtt_microcontroller_firmware.zip",
+      "fileType": "zip",
+      "fileSize": 1048000,
+      "uploader": "6aeceed3001ede0c1b5ec718",
+      "downloadsCount": 27,
+      "createdAt": "2026-11-05T21:02:11.932Z",
+      "updatedAt": "2026-11-05T21:02:11.932Z"
+    },
+    {
+      "_id": "6aeceed30009121b6742072f",
+      "title": "Express JWT Authorization Middleware & RBAC Snippet",
+      "description": "Production-ready reusable Express middleware with role validation, bearer token decoding, and structured JSON error responses.",
+      "category": "Code Repository",
+      "tags": [
+        "Node.js",
+        "Express",
+        "JWT",
+        "Security"
+      ],
+      "fileUrl": "/uploads/jwt_auth_express_middleware_snippet.js",
+      "fileName": "jwt_auth_express_middleware_snippet.js",
+      "fileType": "js",
+      "fileSize": 12400,
+      "uploader": "6aeceed3000ba99c6ef14119",
+      "downloadsCount": 35,
+      "createdAt": "2026-11-05T21:02:11.939Z",
+      "updatedAt": "2026-11-05T21:02:11.939Z"
+    },
+    {
+      "_id": "6aecf20b000e69a7661ccf48",
+      "title": "Visual SLAM Benchmark Study 2026",
+      "description": "Performance evaluation of ORB-SLAM3 vs RTAB-Map on embedded SoCs.",
+      "category": "Research Paper",
+      "tags": [
+        "SLAM",
+        "Robotics",
+        "Paper"
+      ],
+      "fileUrl": "/uploads/1793913355302-328803059-visual_slam_study.pdf",
+      "fileName": "visual_slam_study.pdf",
+      "fileType": "pdf",
+      "fileSize": 60,
+      "createdAt": "2026-11-05T21:15:55.306Z",
+      "updatedAt": "2026-11-05T21:15:55.306Z",
+      "downloadsCount": 1
+    },
+    {
+      "_id": "6aecf2be001f7959a11fd011",
+      "title": "Visual SLAM Benchmark Study 2026",
+      "description": "Performance evaluation of ORB-SLAM3 vs RTAB-Map on embedded SoCs.",
+      "category": "Research Paper",
+      "tags": [
+        "SLAM",
+        "Robotics",
+        "Paper"
+      ],
+      "fileUrl": "/uploads/1793913534359-344486404-visual_slam_study.pdf",
+      "fileName": "visual_slam_study.pdf",
+      "fileType": "pdf",
+      "fileSize": 60,
+      "uploader": "6aeceed3000ba99c6ef14119",
+      "createdAt": "2026-11-05T21:18:54.363Z",
+      "updatedAt": "2026-11-05T21:18:54.363Z",
+      "id": "6aecf2be001f7959a11fd011",
+      "downloadsCount": 1
+    },
+    {
+      "_id": "6aecf5bc0011bec1cdd4e691",
+      "title": "Blockchain",
+      "description": "",
+      "category": "Notes",
+      "tags": [],
+      "fileUrl": "/uploads/1793914300399-8431767-CICD_Pipeline_AutoDeploy_FSD_Presentation.pptx",
+      "fileName": "CICD_Pipeline_AutoDeploy_FSD_Presentation.pptx",
+      "fileType": "pptx",
+      "fileSize": 63450,
+      "uploader": "6aeceed3000ba99c6ef14119",
+      "createdAt": "2026-11-05T21:31:40.410Z",
+      "updatedAt": "2026-11-05T21:31:40.410Z",
+      "id": "6aecf5bc0011bec1cdd4e691",
+      "downloadsCount": 1
+    }
+  ],
+  "tasks": [
+    {
+      "_id": "6aeceed300031c4f7af06f30",
+      "title": "Implement GPS coordinate ingest endpoint",
+      "description": "Construct Express middleware with validation to accept streaming coordinates from vehicle tracking units.",
+      "project": "6aeceed3000076742f2d4d7b",
+      "assignedTo": "6aeceed3000ba99c6ef14119",
+      "priority": "High",
+      "status": "Completed",
+      "deadline": "2026-11-07T21:02:11.834Z",
+      "createdBy": "6aeceed3001ede0c1b5ec718",
+      "createdAt": "2026-11-05T21:02:11.834Z",
+      "updatedAt": "2026-11-05T21:02:11.834Z"
+    },
+    {
+      "_id": "6aeceed300063a7970ac0dd3",
+      "title": "Design interactive map view in Flutter",
+      "description": "Incorporate OpenStreetMap tile layer with smooth animated bus markers and route polylines.",
+      "project": "6aeceed3000076742f2d4d7b",
+      "assignedTo": "6aeceed3001ede0c1b5ec718",
+      "priority": "High",
+      "status": "In Progress",
+      "deadline": "2026-11-10T21:02:11.834Z",
+      "createdBy": "6aeceed3001ede0c1b5ec718",
+      "createdAt": "2026-11-05T21:02:11.842Z",
+      "updatedAt": "2026-11-05T21:02:11.842Z"
+    },
+    {
+      "_id": "6aeceed300063d4899ebd695",
+      "title": "Configure automated push notification triggers for delays",
+      "description": "Calculate delay thresholds and dispatch Firebase Cloud Messaging alerts.",
+      "project": "6aeceed3000076742f2d4d7b",
+      "assignedTo": null,
+      "priority": "Medium",
+      "status": "To Do",
+      "deadline": "2026-11-15T21:02:11.834Z",
+      "createdBy": "6aeceed3001ede0c1b5ec718",
+      "createdAt": "2026-11-05T21:02:11.851Z",
+      "updatedAt": "2026-11-05T21:02:11.851Z"
+    },
+    {
+      "_id": "6aeceed30006d77c8d8a8261",
+      "title": "Curate and augment NIH Chest X-ray dataset",
+      "description": "Normalize pixel intensities, perform affine transformations, and balance target class frequencies.",
+      "project": "6aeceed30011cd0ea28c87e5",
+      "assignedTo": "6aeceed3001a6da4cc57f357",
+      "priority": "High",
+      "status": "In Progress",
+      "deadline": "2026-11-09T21:02:11.860Z",
+      "createdBy": "6aeceed3001a6da4cc57f357",
+      "createdAt": "2026-11-05T21:02:11.860Z",
+      "updatedAt": "2026-11-05T21:02:11.860Z"
+    },
+    {
+      "_id": "6aeceed3000fda6d5fdd8ef9",
+      "title": "Train baseline DenseNet-121 classifier",
+      "description": "Benchmark AUROC scores across 14 radiological pathology targets with cross-validation.",
+      "project": "6aeceed30011cd0ea28c87e5",
+      "assignedTo": "6aeceed3001a6da4cc57f357",
+      "priority": "Medium",
+      "status": "To Do",
+      "deadline": "2026-11-13T21:02:11.860Z",
+      "createdBy": "6aeceed3001a6da4cc57f357",
+      "createdAt": "2026-11-05T21:02:11.875Z",
+      "updatedAt": "2026-11-05T21:02:11.875Z"
+    },
+    {
+      "_id": "6aeceed300051df6318639dc",
+      "title": "Write Solidity ERC-721 Soulbound credential contract",
+      "description": "Implement non-transferable token standard with institutional minter signature verification.",
+      "project": "6aeceed3001f197ed149acd7",
+      "assignedTo": "6aeceed3000ba99c6ef14119",
+      "priority": "High",
+      "status": "In Progress",
+      "deadline": "2026-11-08T21:02:11.891Z",
+      "createdBy": "6aeceed3000ba99c6ef14119",
+      "createdAt": "2026-11-05T21:02:11.891Z",
+      "updatedAt": "2026-11-05T21:02:11.891Z"
+    },
+    {
+      "_id": "6aeceed30011bed74469b797",
+      "title": "Create verification scanner UI widget",
+      "description": "Build web camera QR code scanning component for one-click diploma authentication.",
+      "project": "6aeceed3001f197ed149acd7",
+      "assignedTo": "6aeceed3001ede0c1b5ec718",
+      "priority": "Medium",
+      "status": "Under Review",
+      "deadline": "2026-11-11T21:02:11.891Z",
+      "createdBy": "6aeceed3000ba99c6ef14119",
+      "createdAt": "2026-11-05T21:02:11.904Z",
+      "updatedAt": "2026-11-05T21:02:11.904Z"
+    },
+    {
+      "_id": "6aecf2be001542242c58f522",
+      "title": "Calibrate wide-angle camera intrinsic matrix",
+      "description": "Run chessboard calibration tool and record distortion coefficients.",
+      "project": "6aecf2be00150c618ea41737",
+      "assignedTo": null,
+      "priority": "High",
+      "status": "In Progress",
+      "deadline": null,
+      "createdBy": "6aeceed3000ba99c6ef14119",
+      "createdAt": "2026-11-05T21:18:54.263Z",
+      "updatedAt": "2026-11-05T21:18:54.263Z",
+      "id": "6aecf2be001542242c58f522"
+    }
+  ],
+  "comments": [
+    {
+      "_id": "6aeceed3000bf37ecf486d7e",
+      "content": "We need to make sure the vehicle ping frequency does not exceed mobile data quotas while on 4G cellular dongles.",
+      "project": "6aeceed3000076742f2d4d7b",
+      "author": "6aeceed3000ba99c6ef14119",
+      "createdAt": "2026-11-05T21:02:11.947Z",
+      "updatedAt": "2026-11-05T21:02:11.947Z"
+    },
+    {
+      "_id": "6aeceed30007a3c3178cd7ee",
+      "content": "Agreed! We can batch telemetry points every 3 seconds when the bus is in transit, and every 30 seconds when stationary at stops.",
+      "project": "6aeceed3000076742f2d4d7b",
+      "author": "6aeceed3001ede0c1b5ec718",
+      "createdAt": "2026-11-05T21:02:11.955Z",
+      "updatedAt": "2026-11-05T21:02:11.955Z"
+    },
+    {
+      "_id": "6aeceed3000b5195f764e3c5",
+      "content": "Has anyone inspected the CheXpert dataset to supplement training classes for underrepresented pathologies?",
+      "project": "6aeceed30011cd0ea28c87e5",
+      "author": "6aeceed3001a6da4cc57f357",
+      "createdAt": "2026-11-05T21:02:11.964Z",
+      "updatedAt": "2026-11-05T21:02:11.964Z"
+    },
+    {
+      "_id": "6aecf20b0008556271693ed9",
+      "content": "We should verify if the global shutter camera eliminates motion blur during flight.",
+      "project": "6aecf20b00142dab5f53132a",
+      "createdAt": "2026-11-05T21:15:55.267Z",
+      "updatedAt": "2026-11-05T21:15:55.267Z"
+    },
+    {
+      "_id": "6aecf2be000aa2f92fbfbcc0",
+      "content": "We should verify if the global shutter camera eliminates motion blur during flight.",
+      "project": "6aecf2be00150c618ea41737",
+      "author": "6aecf2bd0010094d34512c14",
+      "createdAt": "2026-11-05T21:18:54.308Z",
+      "updatedAt": "2026-11-05T21:18:54.308Z"
+    }
+  ],
+  "notifications": [
+    {
+      "_id": "6aeceed3000bb9ee9ca1ae4e",
+      "recipient": "6aeceed3001a6da4cc57f357",
+      "sender": "6aeceed3000ba99c6ef14119",
+      "type": "join_request",
+      "message": "Arjun Sharma sent a collaboration request to join \"MedScan AI – Automated X-Ray Pathology Diagnostics\".",
+      "link": "/teams",
+      "createdAt": "2026-11-05T21:02:11.980Z",
+      "updatedAt": "2026-11-05T21:02:11.980Z"
+    },
+    {
+      "_id": "6aeceed3000703f7b5dbce6f",
+      "recipient": "6aeceed3001ede0c1b5ec718",
+      "sender": "6aeceed3000ba99c6ef14119",
+      "type": "task_status_changed",
+      "message": "Arjun Sharma moved task \"Implement GPS coordinate ingest endpoint\" to Completed.",
+      "link": "/tasks?projectId=6aeceed3000076742f2d4d7b",
+      "createdAt": "2026-11-05T21:02:11.987Z",
+      "updatedAt": "2026-11-05T21:02:11.987Z"
+    },
+    {
+      "_id": "6aecf2be0012c04dae7aaab6",
+      "recipient": "6aeceed3000ba99c6ef14119",
+      "sender": "6aecf2bd0010094d34512c14",
+      "type": "join_request",
+      "message": "Neha Gupta sent a collaboration request to join \"Autonomous Drone Navigation using Visual SLAM\".",
+      "link": "/teams",
+      "createdAt": "2026-11-05T21:18:54.149Z",
+      "updatedAt": "2026-11-05T21:18:54.149Z"
+    },
+    {
+      "_id": "6aecf2be0011775389e48219",
+      "recipient": "6aecf2bd0010094d34512c14",
+      "sender": "6aeceed3000ba99c6ef14119",
+      "type": "request_accepted",
+      "message": "Congratulations! Your request to join \"Autonomous Drone Navigation using Visual SLAM\" has been accepted.",
+      "link": "/projects/6aecf2be00150c618ea41737",
+      "createdAt": "2026-11-05T21:18:54.238Z",
+      "updatedAt": "2026-11-05T21:18:54.238Z"
+    },
+    {
+      "_id": "6aecf2be0011543e66d7722d",
+      "recipient": "6aeceed3000ba99c6ef14119",
+      "sender": "6aecf2bd0010094d34512c14",
+      "type": "new_comment",
+      "message": "Neha Gupta posted in the discussion for \"Autonomous Drone Navigation using Visual SLAM\".",
+      "link": "/projects/6aecf2be00150c618ea41737#discussions",
+      "createdAt": "2026-11-05T21:18:54.328Z",
+      "updatedAt": "2026-11-05T21:18:54.328Z"
+    }
+  ]
+}
